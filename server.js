@@ -6,11 +6,21 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    article-one={
-        title:''
+    article-one ={
+        title:'',
+        heading:'',
+        date:'',
+        content:''
+        
     },
-    article-two={},
-    article-three={}
+    article-two={title:'',
+        heading:'',
+        date:'',
+        content:''},
+    article-three={title:'',
+        heading:'',
+        date:'',
+        content:''}
 };
 
 function createTemplate(data){
@@ -19,8 +29,7 @@ function createTemplate(data){
     var date = data.date;
     var content = data.content;
     
-    var htmlTemplate = '
-   <html>
+    var htmlTemplate = '<html>
     <head>
         <title>${title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -43,8 +52,8 @@ function createTemplate(data){
        
     </body>
            
-</html>
-    ';
+</html>';
+return htmlTemplate;
 }
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
