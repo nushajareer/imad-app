@@ -6,20 +6,31 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    articleone ={
-        title:' ',
-        heading:'',
-        date:'',
-        content:''
-        
+    'article-one' :{
+        title:'Article One Nusha Jareer',
+        heading:'Article One',
+        date:'August 10 ,2017',
+        content:`
+            <p>hi this is my some attempt to build a web app cvhi this is my some attempt to build a web app hi this is my some attempt to build a web app hi this is my some attempt to build a web app hi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web apphi this is my some attempt to build a web app
+            </p>
+            <p>
+               let me try let me try let me try let me try let me trylet me try
+               let me try let me try let me try let me try let me try let me try
+               let me try let me try
+            </p>
+            <p>
+                thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   
+            </p>` 
     },
-    article-two={title:'',
-        heading:'',
-        date:'',
+    'article-two':{
+        title:'Article One Nusha Jareer',
+        heading:'Article Two',
+        date:'August 12 ,2017',
         content:''},
-    article-three={title:'',
-        heading:'',
-        date:'',
+    'article-three':{
+        title:'Article One Nusha Jareer',
+        heading:'Article Three',
+        date:'August 13 ,2017',
         content:''}
 };
 
