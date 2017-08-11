@@ -26,12 +26,24 @@ var articles={
         title:'Article One Nusha Jareer',
         heading:'Article Two',
         date:'August 12 ,2017',
-        content:''},
+        content:`
+        <p>
+               let me try let me try let me try let me try let me trylet me try
+               let me try let me try let me try let me try let me try let me try
+               let me try let me try
+            </p>`
+        
+    },
     'article-three':{
         title:'Article One Nusha Jareer',
         heading:'Article Three',
         date:'August 13 ,2017',
-        content:''}
+        content:`
+        <p>
+                thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   thanks alot for given me a chance   
+            </p>` 
+        
+    }
 };
 
 function createTemplate(data){
