@@ -7,7 +7,7 @@ var marginLeft =10;
 
 var img = document.getElementById('madi');
  
- img.onClick = function(){
+ img.onclick = function(){
      marginLeft = marginLeft+10;
      img.style.marginLeft=marginLeft +'px';
  };
