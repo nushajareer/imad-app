@@ -13,5 +13,5 @@ var img = document.getElementById('madi');
  }
  img.onclick = function(){
     // setInterval(moveRight,50);
-    moveRight;
+    moveRight();
  };
